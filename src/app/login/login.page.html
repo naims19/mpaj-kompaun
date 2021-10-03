@@ -1,0 +1,38 @@
+<ion-app>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+
+  <ion-content>
+    <div class="title">
+        <ion-item lines="none">
+          <img src="assets/media/logo.png" alt="">
+          <div class="word">
+            <h1>MISys</h1>
+            <p><span id="mpaj">Mpaj</span> Interactive System</p>
+          </div>
+        </ion-item>
+    </div>
+    <div class="form">
+      <ion-card>
+        <ion-card-content>
+          <ion-item>
+            <ion-label position="floating">ID Pengguna</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Katalaluan</ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+          <ion-item lines="none" style="margin-top: 1.5rem;">
+            <ion-checkbox color="primary" checked slot="start"></ion-checkbox>
+            <ion-label>Ingat Katalaluan ?</ion-label>
+          </ion-item>
+          <ion-button expand="block" fill="clear" routerLink="/home">
+            Log Masuk
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </ion-content>
+</ion-app>
+
+

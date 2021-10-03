@@ -1,0 +1,94 @@
+*{
+    font-family: 'Poppins', arial;
+}
+ion-header{
+    ion-toolbar{
+        --background: none;
+        background-color: #0555B6;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ion-icon{
+            font-size: 1.5rem;
+        }
+
+        ion-title{
+            letter-spacing: 1px;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+ion-content{
+    --background: none;
+    background-color: #F1F9FF;
+    // background-image: url("../../assets/media/logo.png");
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+}
+.form{
+    img{
+        width: 15%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+    }
+    ion-card{
+        --background: none;
+        background-color: #E1E8EB;
+        border: 1px solid #C9C9C9;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        ion-card-content{
+            ion-list{
+                --background: none;
+                background-color: #E1E8EB;
+                width: 100%;
+            }
+            ion-item{
+                --background: none;
+                ion-label{
+                    font-family: 'Poppins';
+                    color: #000;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                }
+
+                ion-input{
+                    color: #000;
+                    border: 1px #0555B6;
+                }
+                ion-checkbox{
+                    --background: none;
+                    border: 1px solid #000;
+                    border-radius: 100%;
+                }
+                // ion-radio{
+                //     width: 4%;
+                //     height: 25px;
+                // }
+                ion-button{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-color: #0555B6;
+                    color: #fff;
+                    width: 80%;
+                    border-radius: 15px;
+                    font-size: 1.1rem;
+                    margin-left: 0.5rem;
+                    margin-right: 0.5rem;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
