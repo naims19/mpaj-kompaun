@@ -1,5 +1,5 @@
 *{
-    font-family: 'Poppins', arial;
+    font-family: 'Poppins';
 }
 ion-header{
     ion-toolbar{
@@ -22,7 +22,6 @@ ion-header{
         }
     }
 }
-
 ion-content{
     --background: none;
     background-color: #F1F9FF;
@@ -73,6 +72,15 @@ ion-content{
                     border: 1px solid #000;
                     border-radius: 100%;
                 }
+                ::-webkit-calendar-picker-indicator {
+                    filter: invert(1);
+                }
+                input{
+                    background: none;
+                    border: none;
+                    color: #000;
+                    font-weight: 600;
+                }
                 // ion-radio{
                 //     width: 4%;
                 //     height: 25px;
@@ -92,84 +100,5 @@ ion-content{
                 }
             }
         }
-    }
-}
-.text-title{
-    margin-top: 2rem;
-    h3{
-        text-align: center;
-        color: #000;
-        font-weight: 600;
-        letter-spacing: 2px;
-    }
-}
-.toggle-column{
-    ion-grid{
-        ion-row{
-            ion-col{
-                ion-button{
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    background-color: #0555B6;
-                    color: #fff;
-                    width: 95%;
-                    border-radius: 5px;
-                    text-transform: uppercase;
-                    height: 40px;
-                }
-            }
-        }
-    }
-}
-.table{
-    margin-top: 2rem;
-    ion-searchbar{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        color: #000;
-        width: 50%;
-        background-color: #E1E8EB;
-        border: 1px solid #C9C9C9;
-        border-radius: 5px;
-    }
-    ion-grid{
-        .head-table{
-            margin-top: 1.5rem;
-            background-color: #0555B6;
-            border-radius: 5px;
-            ion-col{
-                text-align: center;
-                border: 1px solid #fff;
-                ion-label{
-                    color: #fff;
-                    font-size: 1.2rem;
-                }
-            }
-        }
-        .content-table{
-            background-color: #E1E8EB;
-            // border-radius: 5px;
-            ion-col{
-                text-align: center;
-                border: 1px solid #fff;
-                ion-label{
-                    color: #000;
-                    font-size: 1.2rem;
-                }
-            }
-        }
-    }
-    ion-button{
-        margin-top: 1.5rem;
-        // display: block;
-        // margin-left: auto;
-        // margin-right: auto;
-        margin-left: 1.8rem;
-        background-color: #0555B6;
-        color: #fff;
-        width: 30%;
-        border-radius: 5px;
     }
 }

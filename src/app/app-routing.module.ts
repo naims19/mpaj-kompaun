@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'kompaun',
     loadChildren: () => import('./kompaun/kompaun.module').then( m => m.KompaunPageModule)
   },
+  {
+    path: 'kompaun-pegawai',
+    loadChildren: () => import('./kompaun-pegawai/kompaun-pegawai.module').then( m => m.KompaunPegawaiPageModule)
+  },
 ];
 
 @NgModule({

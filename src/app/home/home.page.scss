@@ -10,27 +10,27 @@ ion-content{
   height: 100%;
 
   .title{
-    margin-top: 4.5rem;
-    h3{
-      color: #000;
-      text-align: center;
-      font-size: 3rem;
-      font-weight: 600;
-      letter-spacing: 2px;
-    }
-    p{
-      text-align: center;
-      color: #000;
-      font-size: 1.5rem;
-      margin-top: -1rem;
-      text-transform: uppercase;
-      font-weight: 600;
-      letter-spacing: 2px;
+    margin-top: 4rem;
+    // h3{
+    //   color: #000;
+    //   text-align: center;
+    //   font-size: 3rem;
+    //   font-weight: 600;
+    //   letter-spacing: 2px;
+    // }
+    // p{
+    //   text-align: center;
+    //   color: #000;
+    //   font-size: 1.5rem;
+    //   margin-top: -1rem;
+    //   text-transform: uppercase;
+    //   font-weight: 600;
+    //   letter-spacing: 2px;
 
-      #mpaj{
-        color: #0555B6;
-      }
-    }
+    //   #mpaj{
+    //     color: #0555B6;
+    //   }
+    // }
     h4{
       text-align: center;
       font-size: 2.1rem;
@@ -40,13 +40,49 @@ ion-content{
       letter-spacing: 2px;
       margin-top: 3rem;
     }
-    img{
-      width: 15%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 1.5rem;
-    }
+    // img{
+    //   width: 15%;
+    //   display: block;
+    //   margin-left: auto;
+    //   margin-right: auto;
+    //   margin-top: 1.5rem;
+    // }
+    ion-item{
+      display: flex;
+      justify-content: center;
+      --background: none;
+      margin-left: 6rem;
+      margin-right: 5rem;
+      img{
+          width: 22%;
+          // display: block;
+          // margin-left: auto;
+          // margin-right: auto;
+      }
+      .word{
+          h1{
+              color: #000;
+              margin-left: 2rem;
+              font-size: 8rem;
+              font-weight: 600;
+              letter-spacing: 2px;
+              margin-top: 1rem;
+          }
+          p{
+              color: #000;
+              margin-left: 2rem;
+              font-size: 1.8rem;
+              margin-top: -0.7rem;
+              text-transform: uppercase;
+              font-weight: 600;
+
+              #mpaj{
+                  color: #0555B6;
+              }
+          }
+      }
+
+  }
   }
   .menu{
     ion-card{
